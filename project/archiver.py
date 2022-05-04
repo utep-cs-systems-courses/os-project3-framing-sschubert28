@@ -1,4 +1,4 @@
-def archiver(file_list):
+def archiver(*file_list):
     arr = bytearray()
 
     for filename in file_list:
@@ -45,5 +45,5 @@ def unarchiver(archive):
 
     return 0
 
-files = archiver("test1.txt", "test2.txt", "test3.txt")
-unarchiver("archive.txt.")
+#files = archiver("test1.txt", "test2.txt", "test3.txt")
+#unarchiver("archive.txt.")
